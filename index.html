@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Notas">
+<meta name="theme-color" content="#f5f6f4">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>Notas de predicación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="top"><h1 id="titulo">Notas</h1></header>
+<main id="vista"></main>
+<button id="nuevo" aria-label="Nueva nota">+</button>
+<nav>
+  <button data-t="notas">Notas</button>
+  <button data-t="frases">Frases</button>
+  <button data-t="resumen">Resumen</button>
+</nav>
+<section id="editor" hidden></section>
+<div id="toast" hidden></div>
+<script src="js/config.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/biblia.js"></script>
+<script src="js/ia.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
